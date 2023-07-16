@@ -1,0 +1,23 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+body {
+    background-color: rgb(71, 186, 178);
+}
+
+@media (max-width: 400px) {
+    * {
+        font-size: 2vw;
+    }
+}
+@media (max-width: 320px) {
+    * {
+        font-size: 2vw;
+    }
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
